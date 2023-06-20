@@ -1,3 +1,10 @@
+/* 
+  File: app.js
+  Student’s Name: Pham PhucTran Nguyen
+  StudentID: 301311763
+  Date: Jun 19, 2023
+*/
+
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
