@@ -1,0 +1,30 @@
+<%- include partials/header.ejs %>
+
+<%- include partials/top_nav.ejs %>
+
+<main class="l-main">
+    <!--========== About ==========-->
+    <section class="about" id="about">
+        <div class="height__100vh bd-container bd-grid about-grid">
+            <div class="about-page-container">
+                <h1 class="about-title">Pham Phuc Tran Nguyen</h1>
+                <h2 class="about-subtitle">As a dedicated programmer, I am genuinely passionate about the world of coding and software development. Programming is not just a profession for me; it's a lifelong passion that drives me to continually expand my knowledge and skills. My goal is to become a results-driven and innovative software engineer for creating impactful solutions.</h2>
+                <a href="resume/PhamNguyen_resume.pdf" target="_blank" class="button about-btn-resume">View Resume <i class="fa-solid fa-arrow-right" style="padding-left: 5px"></i></a>
+            </div>
+
+            <div class="about-img-crooper">
+                <img src="images/photo2.jpg" alt="" class="clip-circle">
+            </div>
+            
+        </div>
+    </section>
+</main>
+
+<%- include partials/footer.ejs %>
+     
+<%- include partials/bottom.ejs %> 
+<script>
+    // set active-link for nav-bar item 
+    setActiveLink('item-about');
+
+</script>
