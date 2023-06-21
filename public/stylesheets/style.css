@@ -612,6 +612,7 @@ h3.skill__title {
 .project__figcaption.p3 > h1 {
       color: #f5a105;
       text-shadow: 0 0 4px #fff;
+      height: 4.375rem;
 }
     
 .project__figcaption.p2 > h1 {
